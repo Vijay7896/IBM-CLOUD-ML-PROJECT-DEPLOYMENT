@@ -32,7 +32,7 @@ input_columns = [
 st.title("PMGSY Scheme Classifier")
 
 st.image(
-    "https://cdnbbsr.s3waas.gov.in/s3e6c2dc3dee4a51dcec3a876aa2339a78/uploads/2025/01/20250129686928869.jpg",
+    "https://blogmedia.testbook.com/blog/wp-content/uploads/2023/10/pmgsy-e89d506d.jpg",
     caption="Rural Road Construction under PMGSY",
     use_column_width=True
 )
@@ -94,3 +94,4 @@ if st.button("Predict PMGSY Scheme"):
 
     # Show result
     st.success(f"Predicted PMGSY Scheme: **{predicted_scheme}**")
+
