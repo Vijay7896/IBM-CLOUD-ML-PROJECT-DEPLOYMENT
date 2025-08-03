@@ -36,7 +36,7 @@ st.title("PMGSY Scheme Classifier")
 st.image(
     "https://blogmedia.testbook.com/blog/wp-content/uploads/2023/10/pmgsy-e89d506d.jpg",
     caption="Rural Road Construction under PMGSY",
-    use_column_width=True
+    use_container_width=True
 )
 
 
@@ -96,5 +96,6 @@ if st.button("Predict PMGSY Scheme"):
 
     # Show result
     st.success(f"Predicted PMGSY Scheme: **{predicted_scheme}**")
+
 
 
