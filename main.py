@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import warnings
+warnings.filterwarnings("ignore")
 
 # Load the saved model, encoders, and scaler
 model = joblib.load("random_forest_model.pkl")
@@ -94,4 +96,5 @@ if st.button("Predict PMGSY Scheme"):
 
     # Show result
     st.success(f"Predicted PMGSY Scheme: **{predicted_scheme}**")
+
 
